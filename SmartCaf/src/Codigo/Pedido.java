@@ -8,32 +8,13 @@ package Codigo;
 import java.util.ArrayList;
 import java.util.UUID;
 
-
 /**
  *
  * @author Alvaro
  */
-public class GeneradorArray {
-
-   
-    private ArrayList<UUID> cola = new ArrayList<UUID>();
-
-    public void hacerId() {
-        
-        UUID ID = UUID.randomUUID();
-        System.out.println(ID);
-        this.cola.add(ID);
-    }
-
+public class Pedido {
+    private UUID codigo;
+    private ArrayList pedido;
     
     
-    
-    
-    }
-
-    
-
-
-
-
-
+}

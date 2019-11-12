@@ -5,7 +5,7 @@
  */
 package Codigo;
 
-import java.util.Locale;
+
 
 /**
  *
@@ -20,10 +20,8 @@ public class SmartCaf {
         // TODO code application logic here
         
         GeneradorArray hf = new GeneradorArray();
-        
-        System.out.println(hf.hacerId());
-        
-        hf.meterID(hf.hacerId());
+        for (int i = 0; i < 10; i++) {
+            hf.hacerId();
+        }
     }
-    
 }
