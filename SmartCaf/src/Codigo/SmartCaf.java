@@ -19,9 +19,6 @@ public class SmartCaf {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        GeneradorArray hf = new GeneradorArray();
-        for (int i = 0; i < 10; i++) {
-            hf.hacerId();
-        }
+        
     }
 }
