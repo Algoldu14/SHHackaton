@@ -22,6 +22,8 @@ public class SmartCaf {
         GeneradorArray hf = new GeneradorArray();
         
         System.out.println(hf.hacerId());
+        
+        hf.meterID(hf.hacerId());
     }
     
 }
