@@ -25,13 +25,13 @@ public class GeneradorArray {
        char uno, dos, tres;
        String ID;
        
-       int r = rand.nextInt(this.arrayEnteros.length);
+       int r = rand.nextInt(10);
        
-       uno = this.arrayEnteros[r];
+       uno = (char) r;
        
-       int r1 = rand.nextInt(this.arrayEnteros.length);
+       int r1 = rand.nextInt(10);
        
-       dos = this.arrayEnteros[r1];
+       dos = (char) r1;
        
        int r2 = rand.nextInt(this.arrayLetras.length);
        
